@@ -10,4 +10,6 @@ export function useCounter() {
 
     return () => clearInterval(interval);
   }, []);
+
+  return counter;
 }
