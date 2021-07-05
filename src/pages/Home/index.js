@@ -1,5 +1,11 @@
+import { BackwardCounter } from "../../components/BackwardCounter";
+import { ForwardCounter } from "../../components/ForwardCounter";
+
 export function Home() {
   return (
-    <h1>Home</h1>
+    <>
+      <ForwardCounter />
+      <BackwardCounter />
+    </>
   );
 }
